@@ -1,3 +1,14 @@
+---
+id: okf://cozys-corner/mode-d-output
+title: Cozy's Corner — STORYFRAME-V Mode D Website Output v1.0
+type: Worked Example
+status: draft
+version: 1.0
+source: STORYFRAME-V v1.3.0 Mode D run #1 (2026-07-04)
+relations:
+  - {predicate: DERIVED_FROM, target: okf://cozys-corner/silo-map}
+---
+
 # COZY'S CORNER PRODUCE MARKET — Mode D Output v1.0
 *STORYFRAME-V v1.3.0 · Mode D "Website" · consumer: naics_client · 2026-07-04*
 

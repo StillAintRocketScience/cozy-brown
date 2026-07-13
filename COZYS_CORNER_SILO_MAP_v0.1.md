@@ -1,3 +1,14 @@
+---
+id: okf://cozys-corner/silo-map
+title: Cozy's Corner — Silo Site Map & Master Keyword Map
+type: Reference
+status: draft
+version: 0.1
+source: NAICS 445230 analysis dataset (re-scoped to local storefront)
+relations:
+  - {predicate: GOVERNED_BY, target: okf://cozys-corner/design}
+---
+
 # COZY'S CORNER PRODUCE MARKET — SILO SITE MAP & MASTER KEYWORD MAP
 
 ```

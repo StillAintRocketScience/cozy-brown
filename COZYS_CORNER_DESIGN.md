@@ -2,6 +2,13 @@
 name: Cozy's Corner Produce Market
 description: Warm, neighborly local-produce brand for a single Eight Mile, AL storefront — fresh, affordable, trustworthy, mobile-first. Green badge identity with tomato-red CTAs.
 dependencies: Google Fonts — Fraunces (display), Inter (body)
+id: okf://cozys-corner/design
+title: Cozy's Corner — DESIGN.md (Brand Spec)
+type: Design Spec
+status: draft
+version: 0.2
+source: uploaded circular logo + Sir brand brief
+gate_required: true
 ---
 
 # Cozy's Corner Produce Market — DESIGN.md
