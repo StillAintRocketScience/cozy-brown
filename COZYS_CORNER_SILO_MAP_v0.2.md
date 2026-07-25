@@ -23,7 +23,14 @@ relations:
 **Top-line (what it is / what's new / what needs your decision):**
 - **What it is:** A single-storefront SILO website blueprint for Cozy's Corner — pillars, cluster pages, URLs, internal linking, navigation, and a master keyword→page map — built by running SEO Prompt #3 logic on the supplied 445230 keyword data.
 - **What's new vs. the 445230 doc:** The national/publisher keyword universe was filtered down to the **local-business slice**. Wholesale-at-scale, B2G, and programmatic-SKU plays were dropped or flagged optional (delivery was also dropped in v0.1 — **corrected in v0.2**, see §0.1); SNAP/EBT and service-area pages were added because they fit Eight Mile / Prichard demographics.
-- **Needs your decision:** (1) Keep or cut the **optional B2B/restaurant silo** (SILO 5); (2) confirm the **5-pillar scope** before I draft page content (#4/#5); (3) green-light the Ahrefs validation pass when the connector goes live; (4) **new in v0.2** — does DoorDash delivery earn its own cluster page, or stay a service-option line on Home + Visit Us? (see §0.1).
+- **Needs your decision:** (1) Keep or cut the **optional B2B/restaurant silo** (SILO 5); (2) confirm the **5-pillar scope** before I draft page content (#4/#5); (3) green-light the Ahrefs validation pass when the connector goes live; ~~(4) does DoorDash delivery earn its own cluster page?~~ **⛩ RULED 2026-07-24: no dedicated page, not yet — service-option line only (§0.1, with revisit triggers).**
+
+> **AMENDMENT NOTE (2026-07-24):** decision 4 closed **without a version bump**. v0.2
+> already specified the service-option line as the recommendation; Sir confirmed it, so
+> nothing structural changed — an open question became a dated ruling. Bumping would
+> have forced a second filename rename in one day and re-broken pointers just repaired.
+> Architecture changes get a version; answering a question this document already posed
+> gets a dated marker.
 
 > **CHANGELOG v0.2 (2026-07-24) — ⛩ Sir's ruling: DELIVERY IS BACK.**
 > v0.1 dropped delivery on the stated fact "they do in-store pickup, not delivery," and
@@ -43,19 +50,25 @@ relations:
 
 Business facts used (from `Cozy Brown.txt`): single brick-and-mortar market, **4102 Saint Stephens Rd, Eight Mile, AL 36612**; service area **Whistler, Mobile, Eight Mile, Prichard**; **in-store pickup + in-store shopping + DoorDash delivery** *(delivery confirmed 2026-07-24 — v0.1 wrongly recorded "no delivery")*; price range **$**; new management; categorized "Grocery Store" (true NAICS = **445230 Fruit & Vegetable Retailers**).
 
-### 0.1 · DELIVERY — CONFIRMED, SCOPE OPEN
-Cozy's offers **DoorDash delivery**. What that settles and what it does not:
+### 0.1 · DELIVERY — CONFIRMED AND SCOPED  *(⛩ RULED 2026-07-24)*
+Cozy's offers **DoorDash delivery**. What that settles:
 - **SETTLED:** delivery is a real service option and must appear where a shopper decides
   whether to make the trip — the Home pillar and the Visit Us cluster, at minimum. It is
   no longer an excluded use-case, and the home-delivery shopper is no longer an excluded
   persona.
-- **STILL OPEN (decision 4 above):** whether it earns its own cluster page. Third-party
+- **⛩ RULED (decision 4, Sir, 2026-07-24): NO dedicated delivery page — NOT YET.**
+  Delivery stays a **service-option line on Home + Visit Us**. Rationale: third-party
   delivery is a different SEO play from the rest of this map — the transactional keywords
   ("produce delivery near me", "grocery delivery Eight Mile") point at DoorDash's own
-  ranking surface, not at this site, and the site cannot take the order. A page is
-  justified if it converts *awareness* ("you can get us delivered") rather than chasing
-  the delivery query itself. Recommend: **service-option line now, page only if the
-  keyword pass shows local delivery demand this site can actually capture.**
+  ranking surface, not at this site, and the site cannot take the order. A page would
+  only be justified to convert *awareness* ("you can get us delivered"), which the
+  service-option line already does at a fraction of the build cost.
+  **REVISIT TRIGGER — "not yet" is not "never". Reopen this if any of:**
+    (a) the deferred Ahrefs/Semrush pass shows local delivery demand *this site* can
+        capture (i.e. queries that resolve to the store, not to the DoorDash listing);
+    (b) delivery becomes a material share of orders and Cozy's wants to steer it;
+    (c) Cozy's adds its own delivery (own fleet or direct ordering) — that changes the
+        answer entirely, because then the site CAN take the order.
 - **NOT a wholesale/D2C pivot:** DoorDash is a delivery channel over the same in-store
   inventory. The dropped items below stay dropped for their own reasons.
 
