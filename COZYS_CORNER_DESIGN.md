@@ -5,7 +5,7 @@ dependencies: Google Fonts — Fraunces (display), Inter (body)
 id: okf://cozys-corner/design
 title: Cozy's Corner — DESIGN.md (Brand Spec)
 type: Design Spec
-status: draft
+status: committed
 version: 0.3
 source: uploaded circular logo + Sir brand brief
 gate_required: true
@@ -13,11 +13,30 @@ gate_required: true
 
 # Cozy's Corner Produce Market — DESIGN.md
 
-> STATUS: **v0.3 DRAFT — FOR BRAND BOARD REVIEW.** Sections 1–3, 7 and the Logo & Mark
-> System below are derived from the uploaded circular logo. Values are proposals, not
-> committed brand identity. Approve/adjust before publishing (brand-identity gate).
-> Bracketed items still need a decision.
+> STATUS: **v0.3 — ⛩ APPROVED. BRAND BOARD SIGNED OFF 2026-07-24 (Sir).**
+> The brand-identity gate is CLEARED. Sections 1–9 are committed brand identity, not
+> proposals: the palette, type pairing, component stylings, layout scale, and the
+> measured contrast rules in §2.1 are now the standard this brand is built to. No
+> bracketed decisions remain open.
+>
+> **What the sign-off does NOT cover** — two production items in §10, unchanged:
+> (a) the vector (SVG) redraw of all four logo tiers is still owed before anything
+> goes to signage or print — do not send the current raster; (b) the deliverable set
+> in §10 is now **unblocked and ready to commission** (it was gated on this sign-off).
+>
+> `gate_required: true` is retained deliberately. It reads as a standing property —
+> this artifact governs a client-facing brand and any *publish* still passes a gate —
+> not as a pending-approval flag. Say the word if you intend it as the latter and want
+> it flipped.
+>
+> Changes from here are amendments to an approved identity, not edits to a draft:
+> version bump + a changelog line, and material changes go back to the board.
 
+> **SIGN-OFF (2026-07-24):** ⛩ Sir — "I sign off on brand board." Status
+> `draft → committed`. Version deliberately NOT renumbered to v1.0: this follows the
+> STORYFRAME-V precedent, where approval flips STATUS within the same version rather
+> than minting a new one. Say the word if you'd rather it carry a v1.0 tag.
+>
 > **CHANGELOG v0.3 (2026-07-24) — ⛩ Sir's ruling, two corrections:**
 > 1. **Accent is now TERRACOTTA, not tomato red.** This writes back a ruling made on
 >    2026-07-04 during STORYFRAME-V Mode D run #1 (`cozys_corner_moded_output_v1.0.md`),
@@ -137,5 +156,5 @@ The uploaded circular badge is the **Primary Lockup**. It's detail-dense and onl
 - **Weight fix:** in any redraw, bump "PRODUCE MARKET" to match "COZY'S CORNER" weight so it doesn't drop out when scaled.
 - **Fix before production:** get a clean **vector (SVG)** redraw of all tiers, and reconcile the illustration style (flat/lightly-textured) with the flat ring. Do not send the current raster to signage.
 
-**Deliverable set to commission (once brand board signs off):**
+**Deliverable set to commission — ✅ UNBLOCKED 2026-07-24 (brand board signed off):**
 SVG + PNG (transparent, @1x/@2x/@3x) for each of the 4 tiers · favicon.ico + 180px apple-touch-icon · white-on-green & green-on-white variants.
