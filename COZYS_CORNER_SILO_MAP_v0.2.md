@@ -3,7 +3,7 @@ id: okf://cozys-corner/silo-map
 title: Cozy's Corner — Silo Site Map & Master Keyword Map
 type: Reference
 status: draft
-version: 0.1
+version: 0.2
 source: NAICS 445230 analysis dataset (re-scoped to local storefront)
 relations:
   - {predicate: GOVERNED_BY, target: okf://cozys-corner/design}
@@ -13,7 +13,7 @@ relations:
 
 ```
 [ARTIFACT: Cozy's Corner Produce Market — Website SILO Architecture]
-[VERSION: 0.1 — DRAFT]
+[VERSION: 0.2 — DRAFT]
 [PIPELINE: NAICS 445230 (Mode A+B) → SEO #2 (clustering) → SEO #3 (SiteArchitect Pro)]
 [KEYWORD SOURCE: Supplied — 445230 analysis dataset, re-scoped to local storefront]
 [METRICS STATUS: ESTIMATE — pending Ahrefs/Semrush validation pass]
@@ -22,14 +22,42 @@ relations:
 
 **Top-line (what it is / what's new / what needs your decision):**
 - **What it is:** A single-storefront SILO website blueprint for Cozy's Corner — pillars, cluster pages, URLs, internal linking, navigation, and a master keyword→page map — built by running SEO Prompt #3 logic on the supplied 445230 keyword data.
-- **What's new vs. the 445230 doc:** The national/publisher keyword universe was filtered down to the **local-business slice**. Delivery-app, wholesale-at-scale, B2G, and programmatic-SKU plays were dropped or flagged optional; SNAP/EBT and service-area pages were added because they fit Eight Mile / Prichard demographics.
-- **Needs your decision:** (1) Keep or cut the **optional B2B/restaurant silo** and the **delivery silo**; (2) confirm the **5-pillar scope** before I draft page content (#4/#5); (3) green-light the Ahrefs validation pass when the connector goes live.
+- **What's new vs. the 445230 doc:** The national/publisher keyword universe was filtered down to the **local-business slice**. Wholesale-at-scale, B2G, and programmatic-SKU plays were dropped or flagged optional (delivery was also dropped in v0.1 — **corrected in v0.2**, see §0.1); SNAP/EBT and service-area pages were added because they fit Eight Mile / Prichard demographics.
+- **Needs your decision:** (1) Keep or cut the **optional B2B/restaurant silo** (SILO 5); (2) confirm the **5-pillar scope** before I draft page content (#4/#5); (3) green-light the Ahrefs validation pass when the connector goes live; (4) **new in v0.2** — does DoorDash delivery earn its own cluster page, or stay a service-option line on Home + Visit Us? (see §0.1).
+
+> **CHANGELOG v0.2 (2026-07-24) — ⛩ Sir's ruling: DELIVERY IS BACK.**
+> v0.1 dropped delivery on the stated fact "they do in-store pickup, not delivery," and
+> instructed "flag if added." Cozy's **does** offer DoorDash delivery — confirmed by Sir
+> 2026-07-24. This document was the stale one: STORYFRAME-V Mode D run #1 (2026-07-04)
+> already listed "In-store pickup · In-store shopping · DoorDash delivery" in its Visit
+> Us section, and neither artifact flagged the other for ~3 weeks. Corrected below in
+> §0, §0.1, the segment table, SILO 1, and the Visit Us cluster.
+> **Knock-on effect worth naming:** v0.1's reasoning excluded the home-delivery shopper
+> as a persona. That exclusion is void — delivery buyers are a real segment with a
+> different intent (convenience-first, basket-building, no store visit) and any
+> persona/UX work built on v0.1 needs re-checking on this point.
 
 ---
 
 ## 0. LOCAL RE-SCOPING — ASSUMPTIONS (flagged inline)
 
-Business facts used (from `Cozy Brown.txt`): single brick-and-mortar market, **4102 Saint Stephens Rd, Eight Mile, AL 36612**; service area **Whistler, Mobile, Eight Mile, Prichard**; **in-store pickup + in-store shopping**; price range **$**; new management; categorized "Grocery Store" (true NAICS = **445230 Fruit & Vegetable Retailers**).
+Business facts used (from `Cozy Brown.txt`): single brick-and-mortar market, **4102 Saint Stephens Rd, Eight Mile, AL 36612**; service area **Whistler, Mobile, Eight Mile, Prichard**; **in-store pickup + in-store shopping + DoorDash delivery** *(delivery confirmed 2026-07-24 — v0.1 wrongly recorded "no delivery")*; price range **$**; new management; categorized "Grocery Store" (true NAICS = **445230 Fruit & Vegetable Retailers**).
+
+### 0.1 · DELIVERY — CONFIRMED, SCOPE OPEN
+Cozy's offers **DoorDash delivery**. What that settles and what it does not:
+- **SETTLED:** delivery is a real service option and must appear where a shopper decides
+  whether to make the trip — the Home pillar and the Visit Us cluster, at minimum. It is
+  no longer an excluded use-case, and the home-delivery shopper is no longer an excluded
+  persona.
+- **STILL OPEN (decision 4 above):** whether it earns its own cluster page. Third-party
+  delivery is a different SEO play from the rest of this map — the transactional keywords
+  ("produce delivery near me", "grocery delivery Eight Mile") point at DoorDash's own
+  ranking surface, not at this site, and the site cannot take the order. A page is
+  justified if it converts *awareness* ("you can get us delivered") rather than chasing
+  the delivery query itself. Recommend: **service-option line now, page only if the
+  keyword pass shows local delivery demand this site can actually capture.**
+- **NOT a wholesale/D2C pivot:** DoorDash is a delivery channel over the same in-store
+  inventory. The dropped items below stay dropped for their own reasons.
 
 | Supplied segment (445230) | Local fit | Decision |
 |---|---|---|
@@ -40,7 +68,8 @@ Business facts used (from `Cozy Brown.txt`): single brick-and-mortar market, **4
 | Home Preservationist (storage) | ★★ (authority content) | **KEEP** as info silo |
 | Recipe / Small-Basket (seasonal) | ★★ | **KEEP** (folded under Local) |
 | B2B Commercial / Wholesale | ★ (only if selling to local restaurants) | **OPTIONAL — your call** |
-| Delivery / D2C home delivery | ✗ (they do in-store pickup, not delivery) | **DROPPED — flag if added** |
+| Delivery (3rd-party / DoorDash) | ★★ **CORRECTED v0.2** — they DO deliver via DoorDash | **IN SCOPE** as a service option; own page = open decision (§0.1) |
+| D2C own-fleet home delivery | ✗ (not offered — DoorDash is the channel) | **DROPPED** |
 | B2G procurement, SQF/lab, programmatic SKUs | ✗ (publisher/enterprise play) | **DROPPED** |
 
 > ⚠ **Metrics flag:** All Vol/CPC/Competition figures below are the **supplied national-flavored estimates** from the 445230 dataset. They set *relative* priority correctly but are not Eight Mile-specific. Local "near me" volumes for a town this size will be far smaller in absolute terms; the *ranking* between terms should hold. Numbers get refreshed in the Ahrefs pass.
@@ -52,12 +81,12 @@ Business facts used (from `Cozy Brown.txt`): single brick-and-mortar market, **4
 ### SILO 1 — Fresh Produce Near Me (Core / Home Hub)
 - **Pillar Page Primary Target Keyword:** `fresh produce near me` *(Est. Vol 50,000 | CPC $4.12 | Comp 39)*
 - **Geo-anchor secondary:** `produce market in Eight Mile AL`, `produce near me`, `fruit and veg near me`
-- **Core Pillar Content / Sections:** Who we are (new management) · what's fresh this week · the local promise · store hours & location map · service area · links to every other silo.
+- **Core Pillar Content / Sections:** Who we are (new management) · what's fresh this week · the local promise · store hours & location map · service area · **how to get it: in-store · in-store pickup · DoorDash delivery** *(added v0.2)* · links to every other silo.
 - **Proposed URL:** `/` (home)
 - **Supporting Cluster Pages:**
   1. **Local & Farm-Fresh Produce** — KW `local produce near me` *(5,000 | $4.15 | 48)*; supporting: `farm fresh produce near me`, `locally grown produce near me`, `local produce`. **URL** `/local-produce/`
   2. **Seasonal & Local Favorites** — KW `fresh local tomatoes near me`; supporting: `seedless cucumbers near me`, `fresh local corn near me`, `limes near me`. **URL** `/seasonal-produce/`
-  3. **Visit Us — Hours, Location & Service Area** — KW `produce market open now near me`; supporting: Eight Mile / Whistler / Mobile / Prichard. **URL** `/visit/` (+ optional `/locations/eight-mile/` etc.)
+  3. **Visit Us — Hours, Location & Service Area** — KW `produce market open now near me`; supporting: Eight Mile / Whistler / Mobile / Prichard. **Must carry the full service-options block: in-store shopping · in-store pickup · DoorDash delivery** *(v0.2)*. **URL** `/visit/` (+ optional `/locations/eight-mile/` etc.)
 
 ### SILO 2 — Affordable Produce & SNAP/EBT (Budget / Value)
 - **Pillar Page Primary Target Keyword:** `cheap fresh produce near me` *(Est. 50–500 | CPC ~$2.45–$4.56 | Comp 53–97)*

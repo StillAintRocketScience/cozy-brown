@@ -23,7 +23,7 @@ before touching canon.
 
 ## Concepts
 - [DESIGN.md](COZYS_CORNER_DESIGN.md) — `okf://cozys-corner/design` — brand spec (Design Spec · draft · gate_required)
-- [Silo Site Map](COZYS_CORNER_SILO_MAP_v0.1.md) — `okf://cozys-corner/silo-map` — SEO silo + keyword map (Reference · draft)
+- [Silo Site Map](COZYS_CORNER_SILO_MAP_v0.2.md) — `okf://cozys-corner/silo-map` — SEO silo + keyword map (Reference · draft · v0.2)
 - [Mode D Website Output](cozys_corner_moded_output_v1.0.md) — `okf://cozys-corner/mode-d-output` — STORYFRAME-V run (Worked Example · draft)
 
 ## Raw / staging (not yet OKF concepts)
