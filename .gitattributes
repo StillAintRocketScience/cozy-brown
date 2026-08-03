@@ -1,0 +1,11 @@
+# Normalize line endings on all text files so CRLF/LF churn stops showing as diffs.
+# (Matches the sandbox-rnd fix from 2026-07-20.)
+* text=auto
+
+# Keep binaries byte-exact — never line-ending-normalize these.
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.pdf  binary
+*.ico  binary
