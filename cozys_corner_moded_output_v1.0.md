@@ -12,7 +12,7 @@ relations:
 # COZY'S CORNER PRODUCE MARKET — Mode D Output v1.0
 *STORYFRAME-V v1.3.0 · Mode D "Website" · consumer: naics_client · 2026-07-04*
 
-> **3-line summary:** Production Mode D run #1 — Website Prompt Manifest (1 hero-image prompt + 3 clip prompts) and Site Build Brief for the Cozy's Corner cinematic home experience (Silo 1 hub). Gate confirmed 2026-07-04 with Sir's project brief superseding earlier direction (terracotta/gold accents adopted over DESIGN.md v0.2 tomato red — conflict surfaced and resolved). SNAP/EBT confirmed 2026-07-04; weekly deals populated with simulated placeholder data (incl. Soursop line). Still needs from Sir: store hours (one [GAP] remaining).
+> **3-line summary:** Production Mode D run #1 — Website Prompt Manifest (1 hero-image prompt + 3 clip prompts) and Site Build Brief for the Cozy's Corner cinematic home experience (Silo 1 hub). Gate confirmed 2026-07-04 with Sir's project brief superseding earlier direction (terracotta/gold accents adopted over DESIGN.md v0.2 tomato red — conflict surfaced and resolved). SNAP/EBT confirmed 2026-07-04; weekly deals populated with simulated placeholder data (incl. Soursop line). Store hours supplied 2026-08-03 (Mon–Sat 8 AM–6 PM, closed Sunday) — no store-hours [GAP] remaining; only real weekly-deal prices left before publish.
 
 ```
 metadata:
@@ -140,7 +140,7 @@ brand-board review (Gate 7) — do not silently back-port.
 | 4 | **Daily Specials** | High-contrast "Daily Special" badges (terracotta fill, cream text), neighborhood favorites: Conecuh sausage, Joyce's Cheese Straws, local honey, fresh salsa, Amish pickled vegetables & jellies. | — | pinned_reveal |
 | 5 | **What's Fresh** | Rotating product highlights from the master list (collards, turnip greens, sweet potatoes, watermelon, fresh corn, citrus…) — **plus new carry line:** fresh Soursop fruit, dried Soursop leaves, Soursop tea. Plain prices per Do's/Don'ts. | clip-03 | `pinned_reveal` |
 | 6 | **SNAP/EBT + value strip** | **Confirmed 2026-07-04 — cleared to publish.** Gold badge, dark text, "Fresh doesn't have to be expensive. We accept SNAP/EBT." | — | static |
-| 7 | **Visit Us** | Address: 4102 Saint Stephens Rd, Eight Mile, AL 36612 · Phone: (251) 270-5174 · Email: cozybrown1941@gmail.com · Service area: Eight Mile · Whistler · Mobile · Prichard · Map embed. Service options: In-store pickup · In-store shopping · DoorDash delivery. Hours: `[GAP: store hours — Sir supplies]` | — | static + map |
+| 7 | **Visit Us** | Address: 4102 Saint Stephens Rd, Eight Mile, AL 36612 · Phone: (251) 270-5174 · Email: cozybrown1941@gmail.com · Service area: Eight Mile · Whistler · Mobile · Prichard · Map embed. Service options: In-store pickup · In-store shopping · DoorDash delivery. Hours: **Mon–Sat 8 AM–6 PM · Closed Sunday** *(Sir-supplied 2026-08-03)* | — | static + map |
 | 8 | **Storage Guide teaser** *(planned)* | One-card teaser linking to future `/produce-storage-guide/` (Silo 4). Marked "coming soon" or omitted at builder's discretion until silo pages exist. | — | static |
 | 9 | **Footer** | Shared across screens: nav links (Shop Fresh · Deals · Visit Us), social — [Facebook](https://www.facebook.com/people/Cozys-Corner-Produce-Market/61578280414837/), 1-color logo stamp. | — | static |
 
@@ -157,7 +157,7 @@ Compress all clips for web after generation (~90% size cut target); decompose cl
 - [ ] Deal-card overlay bar passes AA contrast over the brightest frame of its background
 - [ ] Price sits bottom-right on every deal card without covering the product
 - [ ] Sticky Directions/Hours bar present and tappable (≥44px) on mobile
-- [ ] Store hours [GAP] not shipped as real data (only remaining gap)
+- [x] Store hours shipped as real data — Mon–Sat 8 AM–6 PM, closed Sunday (Sir-supplied 2026-08-03)
 - [ ] Weekly Deals `SIMULATED` prices swapped for Sir's real week-1 items/prices before publish
 - [ ] Logo lockup ≥120px in header; smaller placements use secondary badge/monogram (DESIGN.md §10)
 - [ ] Light mode only; no dark-theme remnants from archetype defaults
@@ -169,13 +169,13 @@ Compress all clips for web after generation (~90% size cut target); decompose cl
 3. Clip generation + take selection (3 clips, Seedance; credits are Sir's)
 4. Chain seam approval — **N/A** (not chained)
 5. Browser QA pass on built site (checklist §2.4; mobile pass mandatory)
-6. Publish/deploy + domain — human only (Gate 6); blocks on remaining store-hours [GAP] and swapping in real weekly-deal prices
+6. Publish/deploy + domain — human only (Gate 6); store hours now supplied (2026-08-03), so this now blocks only on swapping in real weekly-deal prices
 
 ---
 
 ## OPEN ITEMS FOR SIR
 
-1. **Store hours** — needed for Hero CTA and Visit Us (§2.2 rows 1, 7) — only remaining [GAP]
+1. ~~**Store hours**~~ — ✅ SUPPLIED 2026-08-03: **Mon–Sat 8 AM–6 PM, closed Sunday** (wired into Hero CTA + Visit Us §2.2 rows 1, 7)
 2. ~~SNAP/EBT~~ — **confirmed 2026-07-04**, section 6 cleared to publish
 3. **Weekly deals** — currently simulated placeholder data (Soursop fruit/leaves/tea + produce staples); Sir to supply real week-1 items + prices before publish (repeats weekly; candidate for a scheduled refresh workflow later)
 
